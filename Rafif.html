@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAPPY BIRTHDAY RAFIF</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+</head>
+<body
+    style="background-image: url(
+        https://s.widget-club.com/images/YyiR86zpwIMIfrCZoSs4ulVD9RF3/35e53f998dde7ee595bb7e5c4bc6ef37/b647256cae358228965ba560e591162e.jpg?q=50&w=720); background-size: cover;"
+    "
+    class='flex justify-center min-h-screen items-center'
+    >
+        <div
+            class="bg-white border px-3 py-3 border-3 border-white shadow-lg shadow-green-300 rounded-xl text-center animate__animated animate__backInDown m-8 w-80"
+            id="kartu"
+            >
+            <h1 class="text-3xl">Happy Birthday</h1>
+            <h1 
+              class="text-2xl text-green-700 font-bold animate__animated animate__tada animate__infinite"
+            >
+              Rafif Nabiha Azzamir
+            </h1>
+            <button
+              class="bg-green-300 text-black font-bold rounded mt-3 hover:bg-green-500 transition ease-in w-full animate__animated animate__delay-1s animate__tada" 
+              onclick="ubahKartu()"
+            >
+              CLICK HERE!
+            </button>
+        </div>
+        
+        <script
+            src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@4.4.0/tsparticles.confetti.bundle.min.js"></script>
+            <script>
+              confetti({
+                particleCount: 100,
+                spread: 70,
+                origin: { y: .6 }
+              });
+              let kartu = document.getElementById("kartu");
+              function ubahKartu() {
+                kartu.innerHTML = `     <h1 class="font-semibold text-wrap animate__animated animate__zoomIn">
+              Selamat ulang tahun my twin! Semoga di umur mu yang baru ini, yang ke-14 kamu bisa menjadi pribadi yang lebih baik dari umur yang sebelumnya ya. Semoga sifat dan sikap burukmu dari umur lalu bisa berubah jadi sifat dan sikap yang baik di umur sekarang. Semoga kamu selalu dan tetap berada di jalan yang benar dan selalu dalam Lindungan Tuhan. Masih banyak do'a ku buat kamu, cuman nanti kepanjanagan :v. Aku pasti do'a in kamu yang baik-baik kok twin, jadi Aamiin aja. Itu aja sih dari aku, Love ya as best friend twin!
+            </h1>
+            <h2 class="mt-3 animate__animated animate__fadeIn">
+              - Dari : Azzirin, your twin -
+            </h2>
+            <button
+              class="bg-slate-300 text-black font-bold rounded mt-3 hover:bg-green-500 transition ease-in w-full animate__animated animate__delay-1s animate__tada" 
+              onclick="refresh()"
+            >
+            CLOSE
+          </button>
+            `;
+              }
+            function refresh() {
+              location.reload();
+              }
+            </script>
+          </body>
+        </html> 
